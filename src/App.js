@@ -2,12 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 import Button from './Button'
 import { MainContainer } from './styles';
+import Logo from './Logo'
 
 function App() {
   return (
     <div className="App">
         <div>
-          <img src={logo} className="App-logo" alt="logo" />  
+          <Logo src={logo} alt="logo" />  
         </div>
         <MainContainer>
           <Button>Default</Button>
